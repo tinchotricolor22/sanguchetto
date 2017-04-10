@@ -1,4 +1,4 @@
-# sanguchetto
+# Sanguchetto
 
 Proyecto Polo Java Unlam 2017.
 
