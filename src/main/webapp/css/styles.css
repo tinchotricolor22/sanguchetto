@@ -1,0 +1,144 @@
+#header-main {
+	border-bottom: 2px solid #eee;
+}
+
+#shopping-cart {
+	float: right;
+	padding-right: 17px;
+}
+
+#shopping-list {
+	min-width: 402px;
+	left: -324px;
+}
+
+#shopping-cart .font9px-circle {
+	position: absolute;
+	right: 17px;
+	margin-top: 2px;
+}
+
+.font9px-circle {
+	font-size: 9px;
+	border-radius: 75%;
+	border-color: rgba(5, 0, 255, 0.82);
+	background-color: rgba(5, 0, 255, 0.82);
+	color: white;
+	opacity: 0.6;
+	position: absolute;
+	border-style: none;
+	padding: 4px;
+}
+
+#buttonAdd {
+	margin-bottom: 5px;
+}
+
+#sanguchetto-container {
+	border-left: 2px solid #eee;
+}
+
+.ingredient {
+	height: 210px;
+	padding: 5px;
+}
+
+.ingredient-body {
+	height: 130px;
+}
+
+.ingredient img,
+.ingredient .disponibles,
+.ingredient .sinStock {
+	padding-left: 20px;
+}
+
+.nombre-ingrediente {
+	font-size: 20px;
+}
+
+.tachado {
+	text-decoration : line-through;
+}
+
+.precio-descuento {
+	color : green;
+	visible:hidden !important;
+}
+
+.precio-descuento.enabled{
+	visibility: visible !important;
+}
+
+.ingredient.enabled {
+	background-color: lightgreen;
+}
+
+.hamburger-icon {
+	content: '';
+	display: block;
+	height: 60px; /*height of icon */
+	width: 60px; /*width of icon */
+	position: absolute;
+	/*where to replace the icon */
+	top: 5px;
+	right: 0px;
+	background: url(../fonts/hamburger-icon-60px.png) no-repeat 0px 0px;
+}
+
+#sanguchetto-header {
+	border-bottom: 2px solid #eee;
+}
+
+#sanguchetto-header h1, #sanguchetto-footer h2 {
+	width: 100%;
+}
+
+#sanguchetto-footer {
+	border-top: 2px solid #eee;
+}
+
+.price {
+	float:right;
+}
+
+#header-ingredient {
+	border-bottom: 2px solid #eee;
+}
+
+#header-condiment {
+	border-bottom: 2px solid #eee;
+	border-top: 2px solid #eee;
+}
+
+.sanguchetto-ingredient {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.disponibles {
+	color: green;
+}
+
+.sinStock {
+	color: red;
+}
+
+.ingredientValue {
+	visibility: hidden !important;
+}
+
+.ingredientValue.enabled {
+	visibility: visible !important;
+}
+
+.descuento {
+	visibility: hidden !important;
+}
+
+.descuento.enabled {
+	visibility: visible !important;
+}
+.ahorro{
+	color:green;
+}
